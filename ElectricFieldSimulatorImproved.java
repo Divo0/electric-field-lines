@@ -1,4 +1,3 @@
-package personal_programs;
 
 import javax.swing.*;
 import java.awt.*;
@@ -721,7 +720,7 @@ public class ElectricFieldSimulatorImproved extends JFrame {
 			directionDegrees += 360; // Ensure angle is 0-360
 
 		forceMagnitudeLabel.setText("Magnitude: " + df.format(magnitude) + " N");
-		forceDirectionLabel.setText("Direction: " + df.format(directionDegrees) + "°");
+		forceDirectionLabel.setText("Direction: " + df.format(directionDegrees) + "Â°");
 	}
 
 	private void clearForceDisplay() {
